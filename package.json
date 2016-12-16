@@ -4,7 +4,8 @@
   "description": "a clone of goodreads written with Node and react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets react,es2015 src/server.js"
   },
   "author": "baoqchau",
   "license": "MIT",

@@ -21,7 +21,7 @@ export default class BookPage extends React.Component {
 						<h2 className="title">{book.title}</h2>
 					</div>
 					<section className="author">
-						<p>Author: ${book.author} </p>
+						<p>Author: {book.author} </p>
 					</section>
 					<section className="reviews">
 						<p> This book has <strong>{book.reviews.length}</strong> reviews:</p>
